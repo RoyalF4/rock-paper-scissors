@@ -8,3 +8,8 @@ function getComputerChoice() {
     return 'scissors'
   }
 }
+
+function getPlayerChoice() {
+  let choice = prompt('Enter rock, paper, or scissors:').toLocaleLowerCase().trim();
+  return choice;
+}
