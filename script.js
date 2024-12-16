@@ -73,6 +73,7 @@ function playRound(computerChoice, humanChoice) {
       outcomeText.textContent = '';
       humanScoreText.textContent = `You: ${humanScore}`;
       computerScoreText.textContent = `Computer: ${computerScore}`;
+      resultsText.textContent = 'Select your choice!';
       document.querySelector('body').removeChild(resetBtn);
     })
     document.querySelector('body').appendChild(resetBtn);
